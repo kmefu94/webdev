@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+    <!-- meta -->
+        <meta name="Matthew Wu" content="width=device-width, initial-scale=1">
+              
+    <!-- local css-->   
+        <link rel="stylesheet" href="css/bootstrap.css">
+        
+    <!-- script -->
+        <script type= text/javascript src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type= text/javascript src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type= text/javascript src="scripts/scroll.js"></script>
+        <script  type= text/javascript src="https://use.fontawesome.com/2d089818e9.js"></script>
+    <!-- title -->
+        <title>Matthew W.L. Wu - Portfolio</title>
+    <!--style-->
+    <style>
+    #describe{
+      font-size:20px;
+    }
+    #describe strong{
+      color:#ff9900;
+    }
+    </style>
+    <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  </head>
+
+<body>
+ <!---- Navigation Header START ---->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#bgimg0">W.L. WU</a>
+                </div>
+                <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html#profile">Profile</a></li>
+                <li><a href="Experience.html">Experience</a></li>
+                </ul>
+            </div>
+        </nav>
+ <!-- Navigation ends here, slides start now -->
+<div class="bgimg0" id ="bgimg0">
+        <div class="caption">
+          <span class="border">WELCOME</span>
+          <!-- this is the clock!-->
+            <div id = "clocks">
+              <span class="digit"></span>
+              <span class="digit"></span>
+              <span class="colon"></span>
+              <span class="digit"></span>
+              <span class="digit"></span>
+              <span class="colon"></span>
+              <span class="digit"></span>
+              <span class="digit"></span>
+              <script src = "scripts/clocks.js"></script>
+            </div>
+        </div>
+          <div class="arrow bounce">
+            <a class="fa fa-chevron-down fa-4x" href="#profile"></a>
+            </div>
+ </div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;" id = "profile">
+  <div style ="padding-bottom: 10px;">
+  <h2 style="text-align:center;">Who I am</h2>
+  <p class = "text-center" id="describe"><strong>Information Systems Analyst</strong> with a <strong>Passion</strong> for all things <strong>Technological</strong>. I specialize in <strong>Database Administration and Design</strong>, <strong>Data Analysis and Modelling</strong>, <strong>Business Process Management</strong>, and <strong>Systems Design</strong>.
+  </div>
+  <br>
+  <!-- carousel starts here -->
+  <div id="mefuCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#mefuCarousel" data-slide-to="0" class="active"></li>
+
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src= "css/images/IMG_2676.JPG" alt="dank" style="max-width:50%; max-height:50%;" class="rotateimg90"/>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#mefuCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#mefuCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    <br>
+  <p class = "text-center" id="describe">Welcome to my personal website, feel free to learn more about my work experience and projects through the navigation bar.</p>
+</div>
+
+<div class="bgimg1">
+  <div class = "footerm">
+    <p>Created by Wei Lan Wu 2019 </p>
+  </div>
+</div>
+
+</body>
+</html>
