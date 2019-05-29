@@ -7,3 +7,5 @@ Collection of CSS, HTML, Javascript, JQuery for development of website
 
 
 Ver. 1. Uploaded previously completed websites up until experience. 
+
+ver. 2. Start projects page, improve carousel functionality. Added more images for carousel slideshow
