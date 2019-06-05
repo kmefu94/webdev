@@ -1583,12 +1583,7 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -6764,11 +6759,48 @@ button.close {
 
 /* my own modified css goes into here*/
 
-.bgimg3 {
+#bgimg3 {
   position: relative;
   background-image: url("images/projects.jpg");
-  min-height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  width: 100%;
+}
+.cover{
+  position: absolute;
+  height:100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.7s ease;
+  background-color: #000000;
+}
+.cover:hover{
+  opacity:1;
+}
+.cover:active{
+  background-image:url("images/save-icon-18-64.png");
+}
+p.desc{
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top:15%;
+  bottom:25%;
+  text-align: center;
+  margin:5%;
+}
+span.aTitle{
+    font-weight:bold;
+    font-size: 14px;
 }
