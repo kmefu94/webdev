@@ -16,3 +16,5 @@ Ver. 1. Uploaded previously completed websites up until experience.
 ver. 2. Start projects page, improve carousel functionality. Added more images for carousel slideshow
 
 ver 3. updated some notes on design choices.
+
+ver4. Overlay and complete skeleton of Projects page. Descriptions finished for individual projects. To do: implement ajax to pull file path for download upon request
