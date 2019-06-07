@@ -6788,9 +6788,12 @@ button.close {
 .cover:hover{
   opacity:1;
 }
-.cover:active{
-  background-image:url("images/save-icon-18-64.png");
-}
+ 
+ .cover.active{
+  border: 5px solid yellow;
+  border-radius: 3px;
+  opacity:1;  
+ }
 p.desc{
   color: white;
   font-size: 12px;
