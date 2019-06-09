@@ -12,7 +12,7 @@
         <script type = "text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type = "text/javascript" src="https://use.fontawesome.com/2d089818e9.js"></script>
         <script type = "text/javascript" src = "scripts/save.js"></script>
-
+        <script type = "text/javascript" src = "scripts/workaround.js"></script>
         <!-- title -->
         <title>Matthew W.L. Wu - Portfolio</title>
     <!--style-->
@@ -39,7 +39,7 @@
   <div style = "position:absolute; width:100%; text-align: center;">
         <!-- header to describe download functionality-->
         <div class = "row" style= " width:50%; position:relative; padding-top: 75px; padding-bottom: 25px; margin-left: 26%; text-align: center;  background-color: black;">
-        <h1 style = "color:white; font-size: 26pt"> Hover for info, Click to select</h1>
+        <h1 id = "heads" style = "color:white; font-size: 26pt"> Hover or Select</h1>
     </div>
     <!-- grid layout for downloadable projects-->
      <div class="row-eq-height" id ="bgimg3" style = "border-style: dotted; border-color: black; padding-top: 5%; padding-bottom: 5%; padding-left: 25%; padding-right: 25%;">            
@@ -48,7 +48,7 @@
         <div class = "col-lg-4" style = "margin: 5%;">
             <div class ="container">
             <img src = "css/images/zip-folder.png" style = "position:relative; height:12vw;">
-                <div class = "cover">
+                <div class = "cover 1">
                 <p class = "desc"> <span class = "aTitle">Java Calculator with GUI </span><br><br> Exception/event handling, operations</p>
             </div>
             </div>
@@ -57,7 +57,7 @@
             <div class = "col-lg-4" id = "IO" style =  "margin: 5%;">
             <div class ="container">
             <img src = "css/images/zip-folder.png" style = "position:relative; height:12vw;">
-                <div class = "cover">
+                <div class = "cover 2">
                 <p class = "desc"> <span class = "aTitle">Java file word counter </span> <br><br> Exception handling, Input/Output, Threading with locks, Runnables</p>
             </div>
             </div>
@@ -65,11 +65,15 @@
         <div class = "col-lg-4" id = "backend" style = "margin: 5%">
         <div class ="container">
             <img src = "css/images/zip-folder.png" style = "position:relative; height:12vw;">
-                <div class = "cover">
+                <div class = "cover 3">
                 <p class = "desc"><span class = "aTitle">Apache Website</span><br><br> Server side PHP, Error handling, Javascript, CSS, HTML</p>
             </div>
             </div>
         </div>
         </div>
+<a id = "dOption" onlick = "clicked()" download>Download Here</a>
+
+</div>
     </div>
+
     <!-- Credits for Zip icon - Icon made by FreePik @ https://www.freepik.com/ from www.flaticon.com "-->
