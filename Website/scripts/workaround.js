@@ -7,13 +7,13 @@ var butt = document.getElementById('dOption');
 	butt.onclick =function(){
 //generate different file downloads based on option chosen
 	if($(option1).hasClass('active')){
-		butt.href="projects/IOThreading-master.zip";
+		butt.href="projects/Calculator.jar";
 	}
 		else if($(option2).hasClass('active')){
 		butt.href="projects/IOThreading-master.zip";
 	}
 		else if($(option3).hasClass('active')){
-		butt.href="projects/IOThreading-master.zip";
+		butt.href="projects/WebTech-master.zip";
 	}
 	else
 	{
