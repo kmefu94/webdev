@@ -10,7 +10,7 @@ var butt = document.getElementById('dOption');
 		butt.href="projects/Calculator.jar";
 	}
 		else if($(option2).hasClass('active')){
-		butt.href="projects/IOThreading-master.zip";
+		butt.href="projects/FileCount.jar";
 	}
 		else if($(option3).hasClass('active')){
 		butt.href="projects/WebTech-master.zip";
@@ -18,6 +18,7 @@ var butt = document.getElementById('dOption');
 	else
 	{
 		alert('please pick an option');
+		butt.href="*";
 	}
 }
 }
