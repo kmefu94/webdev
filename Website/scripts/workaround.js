@@ -18,7 +18,7 @@ var butt = document.getElementById('dOption');
 	else
 	{
 		alert('please pick an option');
-		butt.href="*";
+		butt.href="#";
 	}
 }
 }
